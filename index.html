@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea Brewing Timer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Tea Brewing Timer</h1>
+    <div class="tea-selector">
+      <label for="tea-type">Select Tea Type:</label>
+      <select id="tea-type">
+        <option value="" selected disabled>-- Select Tea --</option>
+        <option value="green">Green Tea</option>
+        <option value="black">Black Tea</option>
+        <option value="oolong">Oolong Tea</option>
+        <option value="herbal">Herbal Tea</option>
+      </select>
+    </div>
+    <div class="instructions">
+      <p id="instructions-text">Please select a tea type to see instructions.</p>
+    </div>
+    <div class="timer">
+      <p id="time">--:--</p>
+      <button id="start-btn">Start Timer</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
